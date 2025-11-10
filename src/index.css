@@ -1,7 +1,23 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-html {
-  scroll-behavior: smooth;
+/* Global styles for Scale It Marketing */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  transition: background 0.3s ease, color 0.3s ease;
 }
+
+button {
+  cursor: pointer;
+}
+
+/* Light mode */
+.bg-white {
+  background-color: #ffffff;
+  color: #111827;
+}
+
+/* Dark mode */
+.dark {
+  background-color: #0f172a;
+  color: #f9fafb;
+}
+
